@@ -26,3 +26,4 @@ plot(data$datetime, data$Sub_metering_1, type="l", xlab="", ylab="Energy Sub Met
   lines(data$datetime, data$Sub_metering_3, col="blue")
   legend("topright",col=c("black","red","blue"), lty=1,legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
+plot(data$datetime, data$Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power"))
